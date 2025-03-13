@@ -7,13 +7,17 @@
             <creation-uuid>a9746b74-76eb-491b-8602-68b71807b864</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <c-extensions>c</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h</header-extensions>
+            <asminc-extensions/>
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>Libraries/LCD</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>Simulator</name>
                     <type>2</type>
                 </confElem>
             </confList>

@@ -57,7 +57,7 @@ static unsigned char led_val = 0x02;
 /**
  * Toggle LED number num. To toggle means to switch its state. On to off and
  * off to on.
- * @param num number of LED to be toggled (see Lab Board LEDX, where X is num)
+ * @param num: number of LED to be toggled (see Lab Board LEDX, where X is num)
  */
 void toggle_LED(unsigned char num){
     if (num > 4 || num < 1){
