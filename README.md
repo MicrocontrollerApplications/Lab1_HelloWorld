@@ -13,23 +13,30 @@ You can find a manual for Git [here](https://github.com/MicrocontrollerApplicati
 
 Afer you successfully cloned the project, it's time to open our IDE - MPLAB X v5.20. Therefore, you simply need to double click the Desktop icon, as shown below.
 
->[!CAUTION]
-> **MISSING IMAGE**
+![](images/Open_IDE.png)
 
 ## Excercise 2 - Open the project
 After opening MPLAB you need to open the previously cloned project. Therefore, we need to 
-1. **click the "Open Project..."**
+1. **click the "Open Project..." button**
    ![](images/OpenProject_LP.png)
-1. navigate to the directory we cloned our project to (U:\Microcontroller\Lab1)
-   ![](images/OpenProject_navigate1.png) 
-1. select our project Lab1_HelloWorld.X and click "Open Project"
-   ![](images/OpenProject_navigate2.png)
-1. open main.c
+1. **navigate to the directory we cloned our project to (U:\Microcontroller\Lab1)**
+   ![](images/OpenProject_navigate_1.png) 
+1. **select our project *Lab1_HelloWorld.X* and click "Open Project"**
+   ![](images/OpenProject_navigate_2.png)
+1. **open main.c**
    ![](images/main_c.png)
 
 ## Excercise 3 - Flash the Microcontroller
+For today we will not cover the details of how the microcontroller is flashed and which intermediate steps are relevant for that. Today we want to see the outcome of our code on our development board.
+Thus, the only thing we do today is pressing the "Debug Project(...)" button. 
+
+![](images/Debug_button.png)
+
+After a while you should see some changes on the deveopment board. If so, move on to excercise 4. If not, ask for help. :)
 
 ## Excercise 4 - Check if you understand the code
+Now, as you see what the code is doing on the development board, check if you understand the relation between code and the development boards behaviour.
+
 
 ## Excercise 5 - Simulate the code and stop execution time
 
