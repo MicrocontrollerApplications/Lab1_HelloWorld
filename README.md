@@ -36,8 +36,39 @@ After a while you should see some changes on the deveopment board. If so, move o
 
 ## Excercise 4 - Check if you understand the code
 Now, as you see what the code is doing on the development board, check if you understand the relation between code and the development boards behaviour.
+Prepare yourself to explain every line of code from line 28 to 51 within the votation in the next lecture. In case of doubts, ask for help.
+For better understanding, you can set breakpoints to pause the program's execution and see what the board is doing if particular lines of code are executed.
+Therefore, set a Breakpoint in line 28 and 31 by clicking on the line numbers. A red square should appear there. **Do not set more than two breakpoints**
 
+![](images/code_with_breakpoints.png)
+
+Now start the code execution in Debug mode -> ![](images/Debug_button.png)
+
+The program will stop at line 28 and wait for you to continue it. You can either continue the program with the continue-button ![](images/continue_button.png) or execute only the next line of code with the step-over-button ![](images/step_over_button.png).
+Feel free to experiment with those two options.
+
+In case you want to further debug the code, you can set new breakpoints. But, you first need to pause the program's execution using the pause-button ![](images/pause_button.png) before changing the breakpoints **and** you need to make sure not to use more than two breakpoints in parallel, as the hardware does not support that.
+This feature might be helpful to find the source for the error message on the display ***!!! INCORRECT LED***.
 
 ## Excercise 5 - Simulate the code and stop execution time
+Now that we flashed our first program to the microcontroller it's time to explore another feature of MPLAB X - the simulator. This tool is very handy if you need to analyze your code without the need for real hardware. A good exmaple for such a case is to investigate timings.
+
+Thus, we now will check if our sleep command really take 250 ms and if we can guess the the execution time for one iteration of our endless loop correctly.
+
+Therefore, we will
+1. **change the project configuration from PicKIT3 to Simulator (more on configurations in future laboratories)**
+   ![](images/change_config.png)
+3. **set a breakpoint in line 39 (you should know how that works)**
+4. **open the stopwatch window**
+   ![](images/Stopwatch_1.png)
+   
+   ![](images/Stopwatch_2.png)
+6. **run the code and check the expired time for one iteration or our loop**
+   ![](images/Debug_button.png)
+
+Did you guess the right execution time? If not, try to use breakpoints and the stopwatch window to find out which line of code takes longer than expected. Feel free to ask for help if you need assistance.
 
 ## Excercise 6 - Change the code (optional)
+Currently our code does not look so nice with all those repeated lines of code. Wouldn't it be much nice to have a loop doing repeatedly executed stuff, such as toggling LEDs?
+Try to use a for-loop (google the syntax in C, if necessary) to toggle all LEDs in the same way as done now.
+Afterwards, check the necessary execution time for the for loop, is it comparable with the previous approach?
