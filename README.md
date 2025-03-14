@@ -69,6 +69,6 @@ Therefore, we will
 Did you guess the right execution time? If not, try to use breakpoints and the stopwatch window to find out which line of code takes longer than expected. Feel free to ask for help if you need assistance.
 
 ## Excercise 6 - Change the code (optional)
-Currently our code does not look so nice with all those repeated lines of code. Wouldn't it be much nice to have a loop doing repeatedly executed stuff, such as toggling LEDs?
+Currently our code does not look so nice with all those repeated lines of code. Wouldn't it be much nicer to have a loop doing repeatedly executed stuff, such as toggling LEDs?
 Try to use a for-loop (google the syntax in C, if necessary) to toggle all LEDs in the same way as done now.
 Afterwards, check the necessary execution time for the for loop, is it comparable with the previous approach?
