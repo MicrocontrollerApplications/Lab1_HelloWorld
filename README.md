@@ -17,6 +17,15 @@ Afer you successfully cloned the project, it's time to open our IDE - MPLAB X v5
 > **MISSING IMAGE**
 
 ## Excercise 2 - Open the project
+After opening MPLAB you need to open the previously cloned project. Therefore, we need to 
+1. **click the "Open Project..."**
+   ![](images/OpenProject_LP.png)
+1. navigate to the directory we cloned our project to (U:\Microcontroller\Lab1)
+   ![](images/OpenProject_navigate1.png) 
+1. select our project Lab1_HelloWorld.X and click "Open Project"
+   ![](images/OpenProject_navigate2.png)
+1. open main.c
+   ![](images/main_c.png)
 
 ## Excercise 3 - Flash the Microcontroller
 
