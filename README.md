@@ -8,6 +8,13 @@ Therefore we will first open this Project in MPLAB, flash the code to our Microc
 To get used to the debugging features of MPLAB we will simulate the code within MPLAB and stop the time relevant for execution. And last but not least we will change the code to recap some basics of programming in C.
 
 ## Excercise 1 - Get the project and open MPLAB X
+In order to get the MPLAB project you will work with today, you need to use git.
+You can find a manual for Git [here](https://github.com/MicrocontrollerApplications/Utilities/blob/feature_add_git_doc/git.md).
+
+Afer you successfully cloned the project, it's time to open our IDE - MPLAB X v5.20. Therefore, you simply need to double click the Desktop icon, as shown below.
+
+>[!CAUTION]
+> **MISSING IMAGE**
 
 ## Excercise 2 - Open the project
 
