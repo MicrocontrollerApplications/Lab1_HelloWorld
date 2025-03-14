@@ -37,7 +37,7 @@
 /**
  * Helper macro for delays
  */
-#define sleep(a) __delay_ms(a)
+#define sleep_ms(a) __delay_ms(a)
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 
@@ -47,26 +47,30 @@
  * Initialize the relevant pins as Outputs to control the LEDs.
  * Initially LEDs are turned off.
  */
-void init_LEDs(void){
+void init_LEDs(void) {
     ANSELB = 0;
     TRISB = 0b11000011;
-    LATB  = 0b00111100;
+    LATB = 0b00111100;
 }
 
 static unsigned char led_val = 0x02;
+
 /**
  * Toggle LED number num. To toggle means to switch its state. On to off and
  * off to on.
  * @param num: number of LED to be toggled (see Lab Board LEDX, where X is num)
  */
-void toggle_LED(unsigned char num){
-    if (num > 4 || num < 1){
-        GLCD_Text2Out(1, 1, "!INCORRECT LED!");
+void toggle_LED(unsigned char num) {
+    if (num > 4 || num < 1) {
+        GLCD_Clear();
+        GLCD_Text2Out(0, 3, "!!!");
+        GLCD_Text2Out(1, 0, "INCORRECT");
+        GLCD_Text2Out(2, 3, "LED");
         return;
     }
-    
+
     // XOR LATB register with required LED
-    LATB ^= led_val << num;    
+    LATB ^= led_val << num;
 }
 
 #endif	/* XC_HEADER_TEMPLATE_H */

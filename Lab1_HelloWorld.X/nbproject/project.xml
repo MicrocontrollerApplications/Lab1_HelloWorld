@@ -13,11 +13,15 @@
             <asminc-extensions/>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>Libraries/LCD</sourceRootElem>
+                <sourceRootElem>.</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
                     <name>Simulator</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>PicKIT3</name>
                     <type>2</type>
                 </confElem>
             </confList>

@@ -26,7 +26,8 @@ void main(void) {
     // Nop() means No Operation. Basically this is an empty line of code.
     // But you can set a breakpoint here.
     Nop();
-    GLCD_Text2Out(1, 1, "MCON SoSe 25");
+    GLCD_Text2Out(0, 3, "MCON");
+    GLCD_Text2Out(1, 2, "SoSe 25");
     Nop();
     
     // while(1) is an endless loop. It's a very common part of microcontroller
@@ -35,17 +36,17 @@ void main(void) {
     // would restart. Not very useful...
     while(1){
         // Mhmm, what could be the purpose of this function?
-        sleep(250);
+        sleep_ms(250);
         // What is this function doing? Try to hold down STRG and left click on
         // it, maybe that gives you some insights.
         toggle_LED(1);
-        sleep(250);
+        sleep_ms(250);
         toggle_LED(2);
-        sleep(250);
+        sleep_ms(250);
         toggle_LED(3);
-        sleep(250);
+        sleep_ms(250);
         toggle_LED(4);
-        sleep(250);
+        sleep_ms(250);
         toggle_LED(0);
     }
     
