@@ -34,10 +34,15 @@
 #define MILLION 1000 * 1000UL
 #define _XTAL_FREQ 4*MILLION
 
-/**
- * Helper macro for delays
- */
-#define sleep_ms(a) __delay_ms(a)
+void sleep_250_ms(void){
+    // One iteration of this loop takes 12 instruction cycles, which equals 12µs 
+    // for an Oscillator frequency of 4MHz. You will learn more about that 
+    // very soon!
+    for (unsigned int i = 0; i < 20832; ++i) {
+        Nop();
+    }
+    Nop();Nop();Nop();Nop();Nop();Nop();Nop();Nop();
+}
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 

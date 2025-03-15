@@ -36,17 +36,17 @@ void main(void) {
     // would restart. Not very useful...
     while(1){
         // Mhmm, what could be the purpose of this function?
-        sleep_ms(250);
+        sleep_250_ms();
         // What is this function doing? Try to hold down STRG and left click on
         // it, maybe that gives you some insights.
         toggle_LED(1);
-        sleep_ms(250);
+        sleep_250_ms();
         toggle_LED(2);
-        sleep_ms(250);
+        sleep_250_ms();
         toggle_LED(3);
-        sleep_ms(250);
+        sleep_250_ms();
         toggle_LED(4);
-        sleep_ms(250);
+        sleep_250_ms();
         toggle_LED(0);
     }
     
