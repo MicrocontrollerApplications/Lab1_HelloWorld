@@ -16,6 +16,8 @@ Afer you successfully cloned the project, it's time to open our IDE - MPLAB X v5
 ![](images/Open_IDE.png)
 
 ## Excercise 2 - Open the project
+Before you open the IDE, please plug in the red usb-cable into an USB-Port of your PC. Afterwards, connect the PicKIT3 (small red device) with that cable and plug the development board into the PicKIT3. Now you can proceed with opening the project.
+
 After opening MPLAB you need to open the previously cloned project. Therefore, we need to 
 1. **click the "Open Project..." button**
    ![](images/OpenProject_LP.png)
@@ -31,6 +33,9 @@ For today we will not cover the details of how the microcontroller is flashed an
 Thus, the only thing we do today is pressing the "Debug Project(...)" button. 
 
 ![](images/Debug_button.png)
+
+After clicking you will be promted to choose a tool. Please use the PicKIT3, which is verly likely the last tool in the list.
+![](images/tool_prompt.png)
 
 After a while you should see some changes on the deveopment board. If so, move on to excercise 4. If not, ask for help. :)
 
