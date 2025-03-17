@@ -35,6 +35,7 @@ Thus, the only thing we do today is pressing the "Debug Project(...)" button.
 ![](images/Debug_button.png)
 
 After clicking you will be promted to choose a tool. Please use the PicKIT3, which is verly likely the last tool in the list.
+
 ![](images/tool_prompt.png)
 
 After a while you should see some changes on the deveopment board. If so, move on to excercise 4. If not, ask for help. :)
