@@ -9,7 +9,7 @@ To get used to the debugging features of MPLAB we will simulate the code within 
 
 ## Excercise 1 - Get the project and open MPLAB X
 In order to get the MPLAB project you will work with today, you need to use git.
-You can find a manual for Git [here](https://github.com/MicrocontrollerApplications/Utilities/blob/feature_add_git_doc/git.md).
+You can find a manual for Git [here](https://github.com/MicrocontrollerApplications/Utilities/blob/main/git.md).
 
 Afer you successfully cloned the project, it's time to open our IDE - MPLAB X v5.20. Therefore, you simply need to double click the Desktop icon, as shown below.
 
