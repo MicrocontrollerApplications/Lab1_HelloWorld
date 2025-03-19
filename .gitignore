@@ -6,3 +6,4 @@ Lab1_HelloWorld.X/nbproject/*
 !Lab1_HelloWorld.X/nbproject/project.properties
 !Lab1_HelloWorld.X/nbproject/project.xml
 
+*.log*
