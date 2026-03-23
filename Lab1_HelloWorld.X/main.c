@@ -27,7 +27,7 @@ void main(void) {
     // But you can set a breakpoint here.
     Nop();
     GLCD_Text2Out(0, 3, "MCON");
-    GLCD_Text2Out(1, 2, "SoSe 25");
+    GLCD_Text2Out(1, 2, "SoSe 26");
     Nop();
     
     // while(1) is an endless loop. It's a very common part of microcontroller
